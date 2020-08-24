@@ -1,0 +1,14 @@
+E_Karttunen
+==========
+
+This is a basic GUI for Karttunen's dictionary of Classical Nahuatl.
+
+![Alt text](.img/Screenshot_2020-08-25_01-24-19.png)
+
+Dependencies and Usage
+--------------
+E_Karttunen is a Python 3 program using only standard libraries.
+
+To start, make sure Python 3 is installed in your system. Here for example, Python 3 is callable with `python3`. Download this repo, `cd`  into the directory with your cli, then enter:
+
+        python3 E_Karttunen.py
