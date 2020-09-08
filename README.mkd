@@ -3,12 +3,37 @@ E_Karttunen
 
 This is a basic GUI for Karttunen's dictionary of Classical Nahuatl.
 
+Karttunen, Frances. 1992. _An Analytical Dictionary of Nahuatl_. Norman: University of Oklahoma Press.
+
 ![Alt text](.img/Screenshot_2020-08-25_01-24-19.png)
 
-Dependencies and Usage
---------------
+Dependencies
+------------
 E_Karttunen is a Python 3 program using only standard libraries.
 
-To start, make sure Python 3 is installed in your system. Here for example, Python 3 is callable with `python3`. Download this repo, `cd`  into the directory with your cli, then enter:
+
+Usage
+-----
+E_Karttunen is a Python 3 program. First, you need to find out which version of Python is installed in your system
+
+* Open your Terminal or Command Prompt and type `python --version`. 
+    * If you get no output you need to install Python. Go to python.org/downloads and chose a recent version, python 3.6 or higher, which is right for your system.
+    * If you get `python 3.6.x` or higher, you will use `python` to call W_Karttunen.
+    * If you get `python 2.x.x`, try to enter `python3 --version`. If you get `python 3.6.x` or higher, you will call E_Karttunen with the `python3` command. 
+    * If you have a python 2 version but not a python 3 version, be sure to carefully examine how to install python3 without overriding your python2 install (overriding python2 might have drastic consequences for your system – learn from my mistake). Install python 3.6.x or higher.
+
+![Alt text](.img/Screenshot_2020-09-09_00-28-51.png)
+
+Download or clone this repository to your system (and unzip the files if you downloaded a zip file). Use your terminal or command prompt and navigate to the location where you downloaded the repository.
+
+To start E_Karttunen, initiate it via your python 3.6.x or higher program file. For me it's `python3` so I enter
 
         python3 E_Karttunen.py
+
+in my command line interface in order to start the program.
+
+Future plans
+------------
+* add functionality to search in English and Spanish fields
+* add regular expression search
+* make gui more aesthetically pleasing
